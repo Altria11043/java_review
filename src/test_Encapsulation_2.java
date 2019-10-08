@@ -1,4 +1,4 @@
-import oop.test_Encapsulation_1;
+import com.zca.oop.test_Encapsulation_1;
 
 public class test_Encapsulation_2{
     public static void main(String[] args){
