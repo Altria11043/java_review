@@ -3,6 +3,10 @@ package com.zca.TestJDBC;
 import java.sql.*;
 
 /**
+ * 如果需要批量处理可以考虑Batch. 可以提高很高的效率
+ * 需要注意的是, 这里的Statement和PreparedStatement中
+ * PreparedStatement可能会因为预编译的关系出问题, 内存不够
+ * 以及: conn.setAutoCommit(false); // 设为手动提交
  * @author Altria
  * Date: 15/10/2019 下午 12:51
  */
